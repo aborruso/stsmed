@@ -25,7 +25,7 @@
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
-		if (feature.properties && feature.properties.data.Nome) {
+		if (feature.properties) {
 			layer.bindPopup("Name - " + feature.properties.Nome);
 		}
 	}
