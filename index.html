@@ -27,7 +27,7 @@
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
-			layer.bindPopup(feature.properties.Nome + feature.properties.Cognome + '<br>' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>');
+			layer.bindPopup(feature.properties.Nome + ' ' +feature.properties.Cognome + '<br>' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>');
 		}
 	}
 	var points = omnivore.csv('geocoded.csv', {
