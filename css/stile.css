@@ -26,12 +26,11 @@ body { margin:0; padding:0; }
     overflow-x: hidden;
     max-height: 60px;
     font-size: 14px;
-    font-family: 'Bree Serif', serif;
   }
   #map-ui p {
     padding: 0px;
     margin: 0px 2px 0px 2px;
-    color: #DAE0F1;
+    color: #FFFFFF;
     font-size: 14px;
   }
   #map-ui img {
