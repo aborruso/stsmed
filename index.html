@@ -22,6 +22,7 @@
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
 	.setView([37.5, 14], 8);
 
+	map.options.maxZoom = 13;
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
