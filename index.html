@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset=utf-8 />
-	<title>A simple map</title>
+	<title>mizziCAP! la mappa degli Opendatari in terra sicula</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.css' rel='stylesheet' />
@@ -27,7 +27,7 @@
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
-			layer.bindPopup("Name - " + feature.properties.Nome);
+			layer.bindPopup(feature.properties.Nome + feature.properties.Cognome + '<br>' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>');
 		}
 	}
 	var points = omnivore.csv('geocoded.csv', {
