@@ -26,8 +26,8 @@
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
-		if (feature.properties && feature.properties.data.title) {
-			layer.bindPopup("Name - " + feature.properties.title);
+		if (feature.properties && feature.properties.data.Nome) {
+			layer.bindPopup("Name - " + feature.properties.Nome);
 		}
 	}
 	var points = omnivore.csv('geocoded.csv', {
