@@ -10,13 +10,14 @@
 	<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
 	<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
-	<style>
-	body { margin:0; padding:0; }
-	#map { position:absolute; top:0; bottom:0; width:100%; }
-	</style>
+	<link rel="stylesheet" type="text/css" href="./css/stile.css">
 </head>
 <body>
-	<div id='map'></div>
+	<div id='map'>
+		<div id="map-ui">
+			<p>Un'idea di Giulio Di Chiara per <a href="https://www.facebook.com/groups/opendatasicilia/permalink/597005833751409/" target="_blank">OpenDataSicilia</a></p>
+		</div>
+	</div>
 	<script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoiYWJvcnJ1c28iLCJhIjoibFpOMXpEZyJ9.HNHxWxDvvFz5i2mgMEll7Q';
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
