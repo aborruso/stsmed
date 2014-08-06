@@ -43,7 +43,8 @@
 		var markers = L.markerClusterGroup({
 			showCoverageOnHover: false,
 			maxClusterRadius: 50,
-			zoomToBoundsOnClick: false
+			zoomToBoundsOnClick: false,
+			spiderfyOnMaxZoom: true
 		});
 		markers.addLayer(points);
 		map.addLayer(markers);
