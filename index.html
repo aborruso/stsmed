@@ -42,7 +42,8 @@
 		//map.fitBounds(points.getBounds());
 		var markers = L.markerClusterGroup({
 			showCoverageOnHover: false,
-			maxClusterRadius: 50
+			maxClusterRadius: 50,
+			zoomToBoundsOnClick: false
 		});
 		markers.addLayer(points);
 		map.addLayer(markers);
