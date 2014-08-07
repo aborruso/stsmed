@@ -30,7 +30,7 @@
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
-			layer.bindPopup('<strong>' + feature.properties.Nome + ' ' +feature.properties.Cognome + '</strong>' + '<br>' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>');
+			layer.bindPopup('<strong>' + feature.properties.Nome + ' ' +feature.properties.Cognome + '</strong>' + '<br>' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>' + '<br>' + '<strong>Professione</strong>: ' + feature.properties.Professione + '<br>' + '<strong>Dataset di interesse</strong>: ' + feature.properties.dataset  );
 		}
 	}
 	var points = omnivore.csv('geocoded.csv', {
