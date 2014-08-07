@@ -22,10 +22,15 @@
 	</div>
 	<script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoiYWJvcnJ1c28iLCJhIjoibFpOMXpEZyJ9.HNHxWxDvvFz5i2mgMEll7Q';
-	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
-	.setView([37.5, 14], 8);
+	var map = L.mapbox.map('map', 'examples.map-i86nkdio');
 
 	map.options.maxZoom = 13;
+
+	var southWest = L.latLng(36.523,11.959),
+	northEast = L.latLng(38.505,15.721),
+	bounds = L.latLngBounds(southWest, northEast);
+
+	map.fitBounds(bounds);
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
