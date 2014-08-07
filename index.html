@@ -44,8 +44,10 @@
 	}
 	var points = omnivore.csv('geocoded.csv', {
 		icon: L.mapbox.marker.icon({
-			'marker-color': '#ED4358'
-		})
+        'marker-size': 'large',
+        'marker-symbol': 'bus',
+        'marker-color': '#fa0'
+    })
 	}).on('ready', function() {
 		//map.fitBounds(points.getBounds());
 		var markers = L.markerClusterGroup({
