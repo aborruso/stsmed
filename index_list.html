@@ -59,6 +59,7 @@
 		points.eachLayer(eachLayer);
 	});
 
+	var markerList = document.getElementById('marker-list');
 	map.featureLayer.on('ready', function(e) {
 		map.featureLayer.eachLayer(function(layer) {
 			var item = markerList.appendChild(document.createElement('li'));
