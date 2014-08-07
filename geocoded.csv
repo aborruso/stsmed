@@ -1,17 +1,17 @@
-coordinate,2geocode,Timestamp,Domanda senza titolo,Nome,Cognome,Città in cui operi,Sei...,,twitter,Professione,Email,Che dataset vorresti veder pubblicato a breve?,lat,lon
-"38.111051,13.335745","Palermo, Italia",7/31/2014 22:00:01,,Ciro,Spataro ,Palermo,uno che lavora con gli opendata,,@cirospat ,Dipendente Comune Palermo ,cirospat@gmail.com,Immobili di proprietà comunale suddivisi per categorie ,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",7/31/2014 22:01:53,,Giulio,Di Chiara,Palermo,un appassionato di opendata,,@giuliodichiara,Imprenditore - Resp. Mobilita - Muovity,giuliodichiara@gmail.com,donazioni alle onlus per aiuti umanitari,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",7/31/2014 22:14:41,,Jesse,Marsh,Palermo,uno che lavora con gli opendata,,@jexxon53,Consulente,jesse@atelier.it,addiopizzo,38.111051,13.335745
-"38.146763,14.969579","Patti, Italia",7/31/2014 23:20:57,,Nino,Galante,Patti,un appassionato di opendata,,@picomiles,informatico,antonino.galante@gmail.com,trasporti,38.146763,14.969579
-"38.111051,13.335745","Palermo, Italia",8/1/2014 0:03:45,,Francesco ,Carollo,Palermo,un appassionato di opendata,,@innovandiamo,Consulente ,francesco.carollo@gmail.com,immobili comune di Palermo,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 0:56:09,,Salvo,Butera,Palermo,un appassionato di opendata,,@SalvoButera1,Giornalista,salvobutera2@gmail.com,,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 1:51:19,,Fabio,Nicolosi,Palermo,un appassionato di opendata,,@fabion54,Studente,,,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 9:40:33,,Andrea,Borruso,Palermo,uno che lavora con gli opendata,,@aborruso,Geomatico,,Grafo stradale di Palermo,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 10:12:01,,Paola,Marino,Palermo,un appassionato di opendata,,@paolamarino73,Account Comunicazione / social media marketing,Paolamarino@miracomunicazione.it,"Distribuzione della popolazione siciliana per sesso, fasce di età, titolo di studi.",38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 10:14:30,,Francesco,Passantino,Palermo,uno che lavora con gli opendata,,@fpassantino,ICT Consultant,fpassantino@gmail.com,,38.111051,13.335745
-"38.111051,13.335745","Palermo, Italia",8/1/2014 10:41:33,,Tony,Siino,Palermo,uno che lavora con gli opendata,,@deeario,Consulente,tonysiino@gmail.com,Luoghi di interesse culturale e relativi dati.,38.111051,13.335745
-"37.5028972,15.0870338","Catania, Italia",8/2/2014 9:58:23,,Cristiano,Longo,Catania,un appassionato di opendata,,@cristianolongo,Programmatore,cristianolongo@gmail.com,"camere di commercio, in particolare mi interesserebbero le libreire",37.5028972,15.0870338
-"38.111051,13.335745","Palermo, Italia",8/5/2014 19:59:30,,Marco,Alfano,Palermo,uno che lavora con gli opendata,,@MarcoAlfano5,Ingegnere elettronico,marco.alfano@anghelos.org,"Linee direttive nuovo PRG  con allegati scritti e grafici, P.U.T. allo stato in cui si trova",38.111051,13.335745
-"37.5659619,14.2824038","Enna, Italia",8/6/2014 12:16:21,,Giuseppe Claudio,Vitale,Enna,uno che lavora con gli opendata,,,Urbanista,vitplan@tiscali.it,consumo di suolo,37.5659619,14.2824038
-"38.111051,13.335745","Palermo, Italia",8/6/2014 12:27:11,,Salvatore,Fiandaca,Palermo,uno che lavora con gli opendata,,@totofiandaca,Ingegnere,pigrecoinfinito@gmail.com,,38.111051,13.335745
-"38.178151,13.242642","capaci, Italia",8/7/2014 9:07:20,,mario,grimaldi,capaci,un appassionato di opendata,,@grimaldi1972,aministrativo,grimaldi1972@libero.it,Le scuole pubbliche con dati principali,38.178151,13.242642
+coordinate,2geocode,Nome,Cognome,Città in cui operi,Sei...,,twitter,Professione,Che dataset vorresti veder pubblicato a breve?,lat,lon
+"38.111051,13.335745","Palermo, Italia",Ciro,Spataro ,Palermo,uno che lavora con gli opendata,,@cirospat ,Dipendente Comune Palermo ,Immobili di proprietà comunale suddivisi per categorie ,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Giulio,Di Chiara,Palermo,un appassionato di opendata,,@giuliodichiara,Imprenditore - Resp. Mobilita - Muovity,donazioni alle onlus per aiuti umanitari,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Jesse,Marsh,Palermo,uno che lavora con gli opendata,,@jexxon53,Consulente,addiopizzo,38.111051,13.335745
+"38.146763,14.969579","Patti, Italia",Nino,Galante,Patti,un appassionato di opendata,,@picomiles,informatico,trasporti,38.146763,14.969579
+"38.111051,13.335745","Palermo, Italia",Francesco ,Carollo,Palermo,un appassionato di opendata,,@innovandiamo,Consulente ,immobili comune di Palermo,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Salvo,Butera,Palermo,un appassionato di opendata,,@SalvoButera1,Giornalista,,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Fabio,Nicolosi,Palermo,un appassionato di opendata,,@fabion54,Studente,,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Andrea,Borruso,Palermo,uno che lavora con gli opendata,,@aborruso,Geomatico,Grafo stradale di Palermo,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Paola,Marino,Palermo,un appassionato di opendata,,@paolamarino73,Account Comunicazione / social media marketing,"Distribuzione della popolazione siciliana per sesso, fasce di età, titolo di studi.",38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Francesco,Passantino,Palermo,uno che lavora con gli opendata,,@fpassantino,ICT Consultant,,38.111051,13.335745
+"38.111051,13.335745","Palermo, Italia",Tony,Siino,Palermo,uno che lavora con gli opendata,,@deeario,Consulente,Luoghi di interesse culturale e relativi dati.,38.111051,13.335745
+"37.5028972,15.0870338","Catania, Italia",Cristiano,Longo,Catania,un appassionato di opendata,,@cristianolongo,Programmatore,"camere di commercio, in particolare mi interesserebbero le libreire",37.5028972,15.0870338
+"38.111051,13.335745","Palermo, Italia",Marco,Alfano,Palermo,uno che lavora con gli opendata,,@MarcoAlfano5,Ingegnere elettronico,"Linee direttive nuovo PRG  con allegati scritti e grafici, P.U.T. allo stato in cui si trova",38.111051,13.335745
+"37.5659619,14.2824038","Enna, Italia",Giuseppe Claudio,Vitale,Enna,uno che lavora con gli opendata,,,Urbanista,consumo di suolo,37.5659619,14.2824038
+"38.111051,13.335745","Palermo, Italia",Salvatore,Fiandaca,Palermo,uno che lavora con gli opendata,,@totofiandaca,Ingegnere,,38.111051,13.335745
+"38.178151,13.242642","capaci, Italia",mario,grimaldi,capaci,un appassionato di opendata,,@grimaldi1972,aministrativo,Le scuole pubbliche con dati principali,38.178151,13.242642
