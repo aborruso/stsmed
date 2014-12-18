@@ -1,4 +1,4 @@
-coordinate,2geocode,Nome,Cognome,Città in cui operi,Sei...,,twitter,Professione,dataset,lat,lon
+coordinate,2geocode,Nome,Cognome,Città in cui operi,Sei...,,twitter,Professione,dataset,Latitudine,Longitudine
 "38.11127,13.3534422",Palermo,Ciro,Spataro ,Palermo,uno che lavora con gli opendata,,@cirospat ,Dipendente Comune Palermo ,Immobili di proprietà comunale suddivisi per categorie ,38.11127,13.3534422
 "38.11127,13.3534422",Palermo,Giulio,Di Chiara,Palermo,un appassionato di opendata,,@giuliodichiara,Imprenditore - Resp. Mobilita - Muovity,donazioni alle onlus per aiuti umanitari,38.11127,13.3534422
 "38.11127,13.3534422",Palermo,Jesse,Marsh,Palermo,uno che lavora con gli opendata,,@jexxon53,Consulente,addiopizzo,38.11127,13.3534422
@@ -45,3 +45,4 @@ coordinate,2geocode,Nome,Cognome,Città in cui operi,Sei...,,twitter,Professione
 "37.4898289,14.0632916",Caltanissetta,Antonio,Caramanna,Caltanissetta,uno che lavora con gli opendata,,,Impiegato,,37.4898289,14.0632916
 "38.11127,13.3534422",Palermo,Antonino,Lo Bue,Palermo,uno che lavora con gli opendata,,@ninokeys,Ricercatore/Ops manager Sky,Beni culturali Regione Sicilia,38.11127,13.3534422
 "38.1937571,15.5542082",Messina,Gianluca,Cosetta,Messina,uno smanettone di codice,,@gianlucacosetta,Web Designer - Start-upper,,38.1937571,15.5542082
+"38.11127,13.3534422",Palermo,Gioacchino,Vaiana,Palermo,un appassionato di opendata,,@giovaiana,Project engineer,,38.11127,13.3534422
