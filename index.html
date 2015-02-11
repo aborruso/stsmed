@@ -24,6 +24,9 @@
 			<p>Un'idea di Giulio Di Chiara per <strong><a href="https://www.facebook.com/groups/opendatasicilia/permalink/597005833751409/" target="_blank">OpenDataSicilia</a></strong></p>
 		</div>
 	</div>
+
+	<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+
 	<script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoiYWJvcnJ1c28iLCJhIjoibFpOMXpEZyJ9.HNHxWxDvvFz5i2mgMEll7Q';
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio');
@@ -59,7 +62,7 @@
 		points.eachLayer(eachLayer);
 	});
 
-
+	var hash = L.hash(map);
 	</script>
 </body>
 </html>
