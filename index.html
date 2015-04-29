@@ -60,6 +60,10 @@
 		markers.addLayer(points);
 		map.addLayer(markers);
 		points.eachLayer(eachLayer);
+		marker.setIcon(L.mapbox.marker.icon({
+                    'marker-color': '#e22185',
+                    'marker-size': 'large'
+                }));
 	});
 
 	var hash = L.hash(map);
