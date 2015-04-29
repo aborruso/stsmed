@@ -47,9 +47,10 @@
 	}
 	var points = omnivore.csv('geocoded.csv', {
 		icon: L.mapbox.marker.icon({
-        'marker-size': 'large',
-        'marker-symbol': 'bus',
-        'marker-color': '#fa0'
+        "iconUrl": "https://cloud.githubusercontent.com/assets/30607/7402149/ef2d45f4-eec9-11e4-99d2-d54dba029760.png",
+"iconSize": [25, 50], // size of the icon
+"iconAnchor": [12, 0], // point of the icon which will correspond to marker's location
+"popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnc
     })
 	}).on('ready', function() {
 		//map.fitBounds(points.getBounds());
