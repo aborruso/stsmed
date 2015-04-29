@@ -47,13 +47,14 @@
 		popupAnchor: [-3, -76]
 	});
 
-	
+
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
 			layer.bindPopup('<strong>' + feature.properties.Etichetta + '</strong>');
 		}
+		feature.setIcon(L.icon(myIcon));
 	}
 	var points = omnivore.csv('geocoded.csv', {icon: myIcon}).on('ready', function() {
 		//map.fitBounds(points.getBounds());
