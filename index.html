@@ -39,7 +39,7 @@
 
 	map.fitBounds(bounds);
 
-	
+
 	var myIcon = L.icon({
 		iconUrl: 'https://cloud.githubusercontent.com/assets/30607/7402149/ef2d45f4-eec9-11e4-99d2-d54dba029760.png',
 		iconSize: [38, 95],
@@ -47,7 +47,7 @@
 		popupAnchor: [-3, -76]
 	});
 
-	L.marker([50.505, 30.57], {icon: myIcon}).addTo(map);
+	
 
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
@@ -55,7 +55,7 @@
 			layer.bindPopup('<strong>' + feature.properties.Etichetta + '</strong>');
 		}
 	}
-	var points = omnivore.csv('geocoded.csv', myIcon).on('ready', function() {
+	var points = omnivore.csv('geocoded.csv', {icon: myIcon}).on('ready', function() {
 		//map.fitBounds(points.getBounds());
 		var markers = L.markerClusterGroup({
 			showCoverageOnHover: false,
