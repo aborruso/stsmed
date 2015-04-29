@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset=utf-8 />
-	<title>mizziCAP! la mappa degli Opendatari in terra sicula</title>
+	<title>stsmed</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.js'></script>
@@ -35,8 +35,8 @@
 
 	map.options.maxZoom = 13;
 
-	var southWest = L.latLng(36.085,7.559),
-	northEast = L.latLng(46.965,13.975),
+	var southWest = L.latLng(36.32185378,2.134529),
+	northEast = L.latLng(48.7018823,30.0488185),
 	bounds = L.latLngBounds(southWest, northEast);
 
 	map.fitBounds(bounds);
@@ -44,7 +44,7 @@
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
-			layer.bindPopup('<strong>' + feature.properties.Nome + ' ' +feature.properties.Cognome + '</strong>' + ' | ' + '<a target="_blank" href="http://twitter.com/'+ feature.properties.twitter + '">' +  feature.properties.twitter +'</a>' + '<hr>' + '<strong>Professione</strong>: ' + feature.properties.Professione + '<br>' + '<strong>Dataset di interesse</strong>: ' + feature.properties.dataset  );
+			layer.bindPopup('<strong>' + feature.properties.Etichetta + '</strong>');
 		}
 	}
 	var points = omnivore.csv('geocoded.csv', {
