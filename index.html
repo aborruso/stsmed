@@ -28,8 +28,8 @@
 	<script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoiYWJvcnJ1c28iLCJhIjoibFpOMXpEZyJ9.HNHxWxDvvFz5i2mgMEll7Q';
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio').addControl(L.mapbox.geocoderControl('mapbox.places', {
-        autocomplete: true
-    }));
+		autocomplete: true
+	}));
 
 	map.options.maxZoom = 6;
 
@@ -39,20 +39,23 @@
 
 	map.fitBounds(bounds);
 
+	
+	var myIcon = L.icon({
+		iconUrl: 'https://cloud.githubusercontent.com/assets/30607/7402149/ef2d45f4-eec9-11e4-99d2-d54dba029760.png',
+		iconSize: [38, 95],
+		iconAnchor: [22, 94],
+		popupAnchor: [-3, -76]
+	});
+
+	L.marker([50.505, 30.57], {icon: myIcon}).addTo(map);
+
 	function eachLayer(layer) {
 		var feature = layer.toGeoJSON();
 		if (feature.properties) {
 			layer.bindPopup('<strong>' + feature.properties.Etichetta + '</strong>');
 		}
 	}
-	var points = omnivore.csv('geocoded.csv', {
-		icon: L.mapbox.marker.icon({
-        "iconUrl": "https://cloud.githubusercontent.com/assets/30607/7402149/ef2d45f4-eec9-11e4-99d2-d54dba029760.png",
-"iconSize": [25, 50], // size of the icon
-"iconAnchor": [12, 0], // point of the icon which will correspond to marker's location
-"popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnc
-    })
-	}).on('ready', function() {
+	var points = omnivore.csv('geocoded.csv', myIcon).on('ready', function() {
 		//map.fitBounds(points.getBounds());
 		var markers = L.markerClusterGroup({
 			showCoverageOnHover: false,
