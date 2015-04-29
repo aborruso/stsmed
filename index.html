@@ -45,13 +45,7 @@
 			layer.bindPopup('<strong>' + feature.properties.Etichetta + '</strong>');
 		}
 	}
-	var points = omnivore.csv('geocoded.csv', {
-		icon: L.mapbox.marker.icon({
-        'marker-size': 'large',
-        'marker-symbol': 'bus',
-        'marker-color': '#e22185'
-    })
-	}).on('ready', function() {
+	var points = omnivore.csv('geocoded.csv').on('ready', function() {
 		//map.fitBounds(points.getBounds());
 		var markers = L.markerClusterGroup({
 			showCoverageOnHover: false,
@@ -60,10 +54,6 @@
 		markers.addLayer(points);
 		map.addLayer(markers);
 		points.eachLayer(eachLayer);
-		marker.setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#e22185',
-                    'marker-size': 'large'
-                }));
 	});
 
 	var hash = L.hash(map);
