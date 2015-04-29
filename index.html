@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset=utf-8 />
-	<title>stsmed</title>
+	<title>mizziCAP! la mappa degli Opendatari in terra sicula</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.js'></script>
@@ -35,8 +35,8 @@
 
 	map.options.maxZoom = 13;
 
-	var southWest = L.latLng(36.32185378,2.134529),
-	northEast = L.latLng(48.7018823,30.0488185),
+	var southWest = L.latLng(30.0488185,2.134529),
+	northEast = L.latLng(48.7018823,36.32185378),
 	bounds = L.latLngBounds(southWest, northEast);
 
 	map.fitBounds(bounds);
