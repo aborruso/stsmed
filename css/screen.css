@@ -13,6 +13,29 @@ body { margin:0; padding:0; }
 .leaflet-popup-content p {
 margin: -8px 0 !important;
 }
+.leaflet-popup-content h3 {
+color: #E22185 !important;
+}
+
+/* unvisited link */
+a:link {
+    color: #E22185 !important;
+}
+
+/* visited link */
+a:visited {
+    color: #E22185 !important;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E22185 !important;
+}
+
+/* selected link */
+a:active {
+    color: #E22185 !important;
+}
 
 #progress {
     display: none;
