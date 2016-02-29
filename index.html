@@ -45,12 +45,14 @@
 		]
 	};
 
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWJvcnJ1c28iLCJhIjoibFpOMXpEZyJ9.HNHxWxDvvFz5i2mgMEll7Q';
+
 
 
 	var map = L.map('map')
-	var layer = L.tileLayer('http://{s}.acetate.geoiq.com/tiles/acetate/{z}/{x}/{y}.png',{
-		attribution: 'Acetate tileset from GeoIQ',opacity:0.5
-	}).addTo(map);
+	var layer = L.tileLayer('https://api.mapbox.com/v4/aborruso.p9kf9l6e/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+}).addTo(map);
 
 	map.options.maxZoom = 6;
 
